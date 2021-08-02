@@ -1,8 +1,8 @@
 package com.springmvc.basic;
 
-import lombok.AllArgsConstructor;
+import lombok.Data;
 
-@AllArgsConstructor
+@Data
 public class HelloData {
     public String username;
     public int age;
